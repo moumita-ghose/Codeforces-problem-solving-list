@@ -1,0 +1,27 @@
+/*
+AUTHOR : MOUMITA GHOSE
+PROBLEM LINK : https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
+DATE : 8th April 2024
+*/
+#include <stdio.h>
+ 
+int main()
+{
+    int a,b,i;
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        if(a%b==0){
+            printf("Multiples\n");
+        }else{
+            printf("No Multiples\n");
+        }
+    }else{
+        if(b%a==0){
+            printf("Multiples\n");
+        }else{
+            printf("No Multiples\n");
+        }
+ 
+    }
+  return 0;
+}
